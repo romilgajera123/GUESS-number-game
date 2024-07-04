@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+.game {
+    text-align: center;
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.between {
+    margin: 20px;
+}
+
+.again {
+    background-color: #ff5722;
+    border: none;
+    color: #fff;
+    width: 250px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 14px 50px;
+    margin: 15px;
+    margin-top: 0px;
+}
+
+.again:hover {
+    background-color: #e64a19;
+}
+
+.number {
+    font-size: 3rem;
+    margin: 20px 0;
+    border: 2px solid #fff;
+    padding: 20px;
+    width: 100px;
+    margin: 0 auto 20px;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: calc(50% - 22px);
+}
+
+.check {
+    background-color: #4caf50;
+    border: none;
+    padding: 14px 50px; 
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.check:hover {
+    background-color: #388e3c;
+}
+
+.message {
+    margin: 20px 0;
+}
+
+.label-score, .label-highscore {
+    margin: 10px 0;
+}
+
+.hidden {
+    display: none;
+  }
+
+.red {
+  background-color: red;
+  border: none;
+  color: #fff;
+}
+
+.red:hover {
+  background-color: darkred;
+}
